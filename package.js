@@ -1,6 +1,6 @@
 Package.describe({
   name: 'strikeout:slick',
-  version: '1.4.1',
+  version: '1.4.1_1',
   // Brief, one-line summary of the package.
   summary: 'The last carousel you will ever need',
   // URL to the Git repository containing the source code for this package.
