@@ -13,12 +13,16 @@ Autoplay, dots, arrows, callbacks, etc...
 
 
 
-## Usage:
-````
+## Installation:
+`meteor add strikeout:slick`
 
+## Usage:
+
+````
+// template.js
 Template.my_slider.rendered = function () {
 
-        $('section#blog .cards').fadeIn().slick({
+        $('#container_with_children').slick({
             dots: true,
             infinite: false,
             speed: 300,
@@ -27,7 +31,7 @@ Template.my_slider.rendered = function () {
             touchThreshold: 8,
             centerMode: false,
             responsive: [
-                {
+               {
                     breakpoint: 980,
                     settings: {
                         arrows: false,
