@@ -1,6 +1,6 @@
 Package.describe({
   name: 'strikeout:slick',
-  version: '1.5.5_1',
+  version: '1.5.6_1',
   // Brief, one-line summary of the package.
   summary: 'The last carousel you will ever need',
   // URL to the Git repository containing the source code for this package.
@@ -15,6 +15,7 @@ Package.onUse(function(api) {
 
   api.addFiles('lib/slick.js', 'client');
   api.addFiles('lib/slick.css', 'client');
+
   api.addFiles('lib/fonts/slick.ttf', 'client');
   api.addFiles('lib/fonts/slick.woff', 'client');
 
