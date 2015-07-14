@@ -18,6 +18,7 @@ Package.onUse(function(api) {
 
   api.addFiles('lib/fonts/slick.ttf', 'client');
   api.addFiles('lib/fonts/slick.woff', 'client');
+  api.addFiles('lib/ajax-loader.gif', 'client');
 
   api.addFiles('lib/slick-theme.css', 'client');
 });
